@@ -70,6 +70,7 @@ public class TicTacToeGUI extends JFrame {
 		
 		currentPlayer = "x";
 		hasWinner = false;
+		//loops through 3x3 grid and sets all the sections to empty
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
 				board[i][j].setText("");
